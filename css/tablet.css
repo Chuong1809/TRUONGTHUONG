@@ -1,0 +1,54 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  .text-nav {
+    display: none;
+  }
+  #personal-info {
+    font-size: 16px;
+    padding-right: 40px;
+  }
+  #target {
+    font-size: 16px;
+  }
+
+  .cer-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .project-title {
+    font-size: 14px;
+    padding: 10px 4px !important;
+  }
+
+  td {
+    font-size: 12px;
+  }
+  tr td:first-child {
+    width: 30%;
+  }
+  .goals {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .digital {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .order1 {
+    order: 1;
+  }
+  .order2 {
+    order: 2;
+  }
+  .order3 {
+    order: 3;
+  }
+  .order4 {
+    order: 4;
+  }
+  .order5 {
+    order: 5;
+  }
+}
